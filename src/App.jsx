@@ -40,6 +40,7 @@ const App = () => {
 
   return ( 
     <div
+      id="general"
       className={`h-full w-full mx-auto py-5 px-32 bg-gradient-to-br shadow-gray-400 ${formatBackground()}`}
       >
       <TopButtons setQuery={setQuery} />

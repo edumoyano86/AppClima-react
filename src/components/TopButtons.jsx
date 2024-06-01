@@ -26,7 +26,7 @@ const TopButtons = ({setQuery}) => {
   ]
   
   return (
-    <div className='flex items-center justify-between my-6'> {cities.map((city) => (
+    <div id='ciudades' className='flex items-center justify-between my-6'> {cities.map((city) => (
         <button 
           key={city.id} 
           className='text-lg font-medium hover:bg-gray-700/20 py-3 px-2 rounded-md transition ease-in'

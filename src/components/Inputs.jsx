@@ -18,7 +18,7 @@ const Inputs = ({ setQuery, setUnits }) => {
   }
 
   return ( 
-  <div className="flex flex-row justify-center my-6">
+  <div id='search-metric' className="flex flex-row justify-center my-6">
     <div className="flex flex-row w-3/4 items-center space-x-4 justify-beetwen">
         <input 
         value = {city}
@@ -26,6 +26,7 @@ const Inputs = ({ setQuery, setUnits }) => {
 
         type="text" 
         placeholder="buscar tu ciudad..." 
+        id='search'
         className="rounded-xl text-gray-500 text-xl font-light p-2 w-1/3 shadow-xl capitalize focus:outline-none placeholder:lowercase" 
         />
 

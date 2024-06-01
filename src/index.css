@@ -15,5 +15,21 @@
   html, body, #root {
     margin: 0;
     height: 100%;
-  }
+  }  
 };
+
+
+@media (max-width: 577px) {
+  #ciudades {
+    display: none;
+  }
+
+  #general {
+    padding: 1.2rem;
+    height: auto;
+  }
+
+  #search {
+    width: 80%;
+  }
+}
